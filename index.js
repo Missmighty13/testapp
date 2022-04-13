@@ -4,5 +4,5 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/', (req,res) => res.send('OK'));
+app.get('/', (req,res) => res.send('missmighty'));
 app.listen(3000, () => console.log('server listening'))
